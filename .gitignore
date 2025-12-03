@@ -1,0 +1,12 @@
+# Archivos de entornos y caché
+.venv/
+__pycache__/
+
+# Modelos y archivos binarios grandes
+*.pkl
+*.joblib
+
+# Carpetas de Node.js (Vistas en tu git status)
+node_modules/
+package-lock.json
+package.json
