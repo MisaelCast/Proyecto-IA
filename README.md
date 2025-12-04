@@ -2,14 +2,9 @@
 
 ## Descripción del Proyecto
 
-Este proyecto implementa un modelo de Machine Learning supervisado para
-clasificar noticias como **"REAL"** o **"FAKE"** (Clasificación
-Binaria). Utiliza técnicas avanzadas de Procesamiento de Lenguaje
-Natural (PLN) para entrenar un modelo que identifica patrones sutiles de
-lenguaje que distinguen la información verificada de la desinformación.
+Detector de noticias falsas (REAL / FAKE) basado en Procesamiento de Lenguaje Natural (NLP) y Regresión Logística.
 
-El proyecto incluye un script de entrenamiento robusto y una
-**aplicación web interactiva (Streamlit)** para pruebas rápidas.
+Incluye script de entrenamiento y una aplicación web de demostración con Streamlit.
 
 ------------------------------------------------------------------------
 
@@ -18,7 +13,7 @@ El proyecto incluye un script de entrenamiento robusto y una
 | Métrica | Valor |
 | :--- | :--- |
 | **Algoritmo Base** | Regresión Logística (Simbolista) |
-| **Precisión (Accuracy)** | ≈ 99.0% |
+| **Precisión (Accuracy)** | ≈ 98.5% |
 | **Datos de Entrenamiento** | ≈ 44,000 Noticias |
 | **Vectorización** | TF-IDF (Term Frequency - Inverse Document Frequency) |
 
@@ -28,7 +23,7 @@ El proyecto incluye un script de entrenamiento robusto y una
 
 ### 1. Preparación y Limpieza de Datos (Data Pipeline)
 
--   **Fuentes:** Datos cargados de `Fake.csv` y `True.csv` (aprox.
+-   **Fuentes:** Fake and Real News (Kaggle). Datos cargados de `Fake.csv` y `True.csv` (aprox.
     44,000 documentos en total).
 -   **Ingeniería de Características:** Se combinó el campo `title` y
     `text` para proporcionar al modelo un contexto semántico máximo.
@@ -92,7 +87,7 @@ streamlit run app.py
 
 ------------------------------------------------------------------------
 
-## 🧑‍💻 Autor
+## Autor
 
 **Misael Castillo**
 
