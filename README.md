@@ -87,8 +87,4 @@ streamlit run app.py
 
 ------------------------------------------------------------------------
 
-## Autor
-
-**Misael Castillo**
-
 \[LinkedIn \]
